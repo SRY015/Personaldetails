@@ -1,0 +1,101 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+*{
+    box-sizing: border-box;
+}
+/* heading part start here */
+.navber{
+    position: relative;
+    
+}
+.menu{
+    position: absolute;
+    right:20px;
+    top: 35px;
+}
+.menu a{
+    padding: 5px 15px;
+    display: inline;
+    text-align: center;
+}
+.logo{
+    left: 5px;
+}
+.heading {
+    position: absolute; 
+    top: 5px;
+    left: 200px;
+}
+/* Heading part ends here */
+/* Profile design starts from here */
+.profile .cloud1{
+display: block;
+margin-left: 10000px;
+}
+.profile2 h2{
+    text-align:center;
+    padding-top: 100px;
+}
+.profile2{
+    
+}
+/* Profile design ends here */
+/* about_me design starts here */
+.about_me{
+   position: relative;
+   height: 530px;
+}
+.about_details{
+   position: absolute; 
+   right: 20px;
+   top: 60px;
+}
+.about_details p{
+    text-align: left;
+}
+.about_image{
+position: absolute;
+    top: 150px;
+}
+.button1{
+   position: absolute; 
+   top: 420px;
+}
+/* About_me design ends here */
+/* card design starts here */
+.main-card{
+margin: 10px;
+padding: 15px;
+}
+.card1{
+    width: 32.5%;
+    display:inline-block;
+    border-radius: 0px;
+}
+.card2{
+    width: 32.5%;
+    display: inline-block;
+    border-radius: 0px;
+}
+.card3{
+    width: 32.5%;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+
+
+
+
+   
+

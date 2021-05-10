@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    
+    margin: 0;
+}
+/* heading part starts here */
+.heading{
+    text-align: center;
+}
+.navber{
+    background-color: springgreen;
+    text-align: center;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: turquoise;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 10px;
+}
+.menu a:hover{
+    background-color: tomato;
+}
+/* heading part ends here */
+
+/* Profile design starts from here */
+.profile .profile2{
+    text-align: center;
+    font-family:cursive;
+}
+.profile{
+    position: relative;
+}
+.profile2 p{
+    padding: 20px;
+}
+.profile .cloud1{
+    display: inline;
+    position: relative;  
+    float: right;
+    right: 20px;
+    margin-top: 9px;
+    margin-left: 1000px;
+    margin-bottom: 15px;
+    transition: transform 2s;
+}
+.cloud1:hover{
+    transform:rotate(360deg);
+}
+.profile .cloud2{
+    display: block;
+    position: relative; 
+    float: left;
+    margin-top: -31px;
+    left: 20px;
+    margin-right: 1000px;
+    margin-bottom: 33px;
+    transition: transform 2s;
+}
+.cloud2 img{
+   padding: 10px;
+   margin-top: 10px;
+}
+
+.cloud2:hover{
+    transform:rotate(360deg);
+}
+/* profile design ends here */
+/* about_me design starts here */
+.about_me{
+    position: relative;
+    background-color: #00FF7F;
+    margin-top: 170px;
+    border: 2px solid grey;
+}
+.about_image img{
+    width:200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+.about_image{
+        text-align: center;
+}
+.about_me h2{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.hr1{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(252, 247, 251);
+    border-bottom: none;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top:-10px;
+}
+.about_details p{
+text-align: center;
+font-family: cursive;
+color: white;
+padding: 30px;
+
+}
+.hr2{
+    border-color: white;
+    margin-right:30px;
+    margin-left: 30px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    border-style:solid;
+    border-bottom: none;
+    border-width: 1px;
+}
+.about_details a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    .button1{
+        top: 750px;
+        position: absolute;
+        background-color: rgb(11, 12, 12);
+        border-radius: 20px;
+        color: white;
+        padding: 10px;
+    }
+    /* about_me design ends here */
+    /* card design starts here */
+    .main-card{
+        margin: 10px;
+    }
+    /* card1 design starts here */
+    .card1{
+        text-align: center;
+        padding: 5px;
+        margin: 4px;
+        background-color:#00FF7F ;
+        border-radius: 20px;
+    }
+    .card1:hover{
+        border:2px solid black;
+       
+    }
+    .card1 h2{
+        background-color:cadetblue;
+        color: white;
+    }
+    .card1 p{
+        padding: 20px;
+    }
+    .card1 img{
+        width: 100px;
+        height: 100px;
+        border: 4px solid blue;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+/* card1 design ends here */
+/* card2 design starts here */
+    .card2{
+        text-align: center;
+        padding: 5px;
+        margin: 4px;
+        background-color:#00FF7F ;
+        border-radius: 20px;
+    }
+    .card2:hover{
+        border:2px solid black;
+       
+    }
+    .card2 h2{
+        background-color:cadetblue;
+        color: white;
+    }
+    .card2 p{
+        padding: 20px;
+    }
+    .card2 img{
+        width: 100px;
+        height: 100px;
+        border: 4px solid blue;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+    /* card2 design ends here */
+    /* card3 design starts here */
+    .card3{
+        text-align: center;
+        padding: 5px;
+        margin: 4px;
+        background-color:#00FF7F ;
+        border-radius: 20px;
+    }
+    .card3:hover{
+        border:2px solid black;
+        
+       
+    }
+    .card3 h2{
+        background-color:cadetblue;
+        color: white;
+    }
+    .card3 p{
+        padding: 20px;
+        color:rgb(236, 60, 29);
+        font-weight: bolder;
+    }
+    .card3 img{
+        width: 100px;
+        height: 100px;
+        border: 4px solid blue;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+    .progressbar{
+        position: relative;
+    }
+    .progressbar ul {
+        list-style: none;
+        text-align: left;
+        
+    }
+    .progressbar ul li{
+        margin: 25px;
+        font-weight: bolder;
+    }
+    .progressbar li::before{
+       content:'';
+       position: absolute;
+       background-color: rgb(86,86,153,.5);
+       /* top: calc(100% + 0px); */
+      
+       width: 100%;
+       height: 10px;
+    }
+    /* card3 design ends here */
+
+
+
